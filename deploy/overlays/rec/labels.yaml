@@ -3,7 +3,7 @@ kind: LabelTransformer
 metadata:
   name: labels
 labels:
-  env: prod
+  env: rec
 fieldSpecs:
   - path: metadata/labels
     create: true
