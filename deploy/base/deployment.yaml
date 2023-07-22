@@ -5,7 +5,6 @@ metadata:
     app: vote-app-ui
   name:  vote-app-ui
 spec:
-  serviceAccountName: app
   replicas: 1
   selector:
     matchLabels:
@@ -15,6 +14,7 @@ spec:
       labels:
         app:  vote-app-ui
     spec:
+      serviceAccountName: app
       containers:
         - image: docker.io/josephassiga/vote-app-ui:latest
           imagePullPolicy: Always
