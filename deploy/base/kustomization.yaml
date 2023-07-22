@@ -3,4 +3,6 @@ kind: Kustomization
 resources:
   - service.yaml
   - deployment.yaml
-  - hpa.yaml
+  - docker-secret.yaml
+  - route.yaml
+  - serviceaccount.yaml
