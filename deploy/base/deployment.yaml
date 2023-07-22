@@ -5,6 +5,7 @@ metadata:
     app: vote-app-ui
   name:  vote-app-ui
 spec:
+  serviceAccountName: app
   replicas: 1
   selector:
     matchLabels:
